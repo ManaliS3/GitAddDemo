@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<body>
+    <form action="#" method="get">
+    <h1>Contact Info</h1>
+    <input type="text" name="name" placeholder="first and last name" pattern="^[A-Z][a-z]+\s[A-Z][a-z]+$" title="There should be space between First and Last name" required>
+    <input type="email" name="email" placeholder="email address" required>
+    <input type="tel" name="phone" pattern="^[0-9]{10}$" title="Phone Number must be of 10 digits" placeholder="phone number" required>
+    <input type="url" name="web" placeholder="web address" required>
+
+    <h1>Preferences</h1>
+    <input type="number" name="#rc" min="1" max="10" placeholder="# of rc" required><br><br>
+    <input type="submit" value="Submit Info">
+</form>
+</body>
+</html>
